@@ -1,0 +1,92 @@
+.dashboard {
+    margin-left: 300px;
+    margin-top: 10px;
+    font-size: medium;
+}
+
+.chart {
+    width: 720px;
+    background-color: white;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+.charts {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.chartelement {
+    padding: 20px;
+}
+
+.piechart {
+    margin-left: 20px;
+    
+    background-color: white;
+    
+}
+
+.chart-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.span-style {
+    color: blue;
+}
+
+.buttonn {
+    margin-left: 400px;
+    padding: 7px 25px 7px 25px;
+    background-color: rgb(124, 15, 124);
+    color: white;
+    border: none;
+    
+}
+
+.header {
+    background-color: white;
+    margin-right: 25px;
+    margin-top: 25px;
+    padding: 10px;
+    color: rgb(102, 97, 97);
+}
+
+.option-flex {
+    display: inline-flex;
+    flex-direction: row;
+  
+    border-top-color: gray;
+    border-top-width: 10px;
+}
+
+.option-style {
+    background-color:rgb(187, 187, 187);
+    color: black;
+    margin: 5px 10px 5px 0;
+    padding: 5px 10px 5px 10px;
+}
+
+.style2 {
+    color: blue;
+    margin: 10px;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    margin: 10px;
+    border-style: none;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
