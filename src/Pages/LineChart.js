@@ -1,6 +1,8 @@
 import React from 'react'
 import { Line } from 'react-chartjs-2'
 
+//Line chart with random data
+
 function LineChart() {
 
     const data = {

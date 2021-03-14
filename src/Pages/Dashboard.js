@@ -6,10 +6,11 @@ import PieChart from './PieChart'
 import Header from './Header'
 import Option from './Option'
 
+//Displays the dashboard components 
 function Dashboard() {
     return (
         <div className="dashboard">
-            <div className="header">
+            <div >
                  < Header />
             </div>
             <p><strong>Dashboard</strong> ICE Market data | Own Analysis | Historic market data <span style={{marginLeft:535}}>Settings | Analytics | Watchlist</span></p>

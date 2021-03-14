@@ -1,6 +1,5 @@
 import React from 'react'
 import * as FcIcons from 'react-icons/fc'
-import * as RiIcons from 'react-icons/ri'
 
 function Option() {
     return (

@@ -1,6 +1,8 @@
 import React from 'react'
 import * as FaIcons from 'react-icons/fa';
 
+//It has all the sidebar elements in an array format
+
 export const SidebarData = [
     {
         title: 'Dashboard',

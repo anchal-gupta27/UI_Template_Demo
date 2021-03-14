@@ -1,3 +1,5 @@
+/* Css for dashboard components*/
+
 .dashboard {
     margin-left: 300px;
     margin-top: 10px;
@@ -86,7 +88,11 @@ img {
     border-style: none;
     padding: 5px;
     padding-left: 10px;
-    padding-right: 10px;
-    
-    
+    padding-right: 10px;   
+}
+
+.input-style {
+    width: 200%;
+    height: 20px;
+    margin-left: 100px;
 }

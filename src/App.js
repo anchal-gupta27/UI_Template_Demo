@@ -4,6 +4,8 @@ import Navbar from './Components/Navbar';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Dashboard from './Pages/Dashboard';
 
+//React router is used to navigate
+
 function App() {
   return (
    <div className="App">
@@ -11,9 +13,7 @@ function App() {
       <Navbar />
         <Switch>
           <Route path='/' exact component={Dashboard}/>
-        </Switch>
-
-     
+        </Switch> 
     </Router>
    </div>
   );
