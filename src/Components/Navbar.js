@@ -7,6 +7,8 @@ import {Link} from 'react-router-dom'
 import {SidebarData} from './SidebarData'
 import usaflag from '../images/usaflag.jpg';
 import profile from '../images/profile.png';
+import logo from '../images/logo.png';
+import {IconContext} from 'react-icons';
 import './Navbar.css'
 
 //Sidebar and topbar 
@@ -14,7 +16,7 @@ import './Navbar.css'
     
     return(
         <>
-        
+        <IconContext.Provider value = {{color: '#fff'}}>
         <div className="navbar">
            
             <Link to = "#" className='menu-bars'>
@@ -47,13 +49,14 @@ import './Navbar.css'
         </div>
         <nav className= 'nav-menu active nav-menu'>
             <div className='nav-menu-items' >
-            <div className="staradmin"><h2>Staradmin</h2></div>
-                <div className="box">
-                < img src={profile} alt="profile" className="account" />
-              
-                
-                <p style={{color: "white"}}><strong>Allen Moreno</strong><br/>Premium user</p>
-                </div>
+            <div className="staradmin box">
+                 <img src={logo} alt="logo" className="account"></img>
+                  <h2>Staradmin</h2>
+            </div>
+            <div className="box">
+                 < img src={profile} alt="profile" className="account" />    
+                  <p style={{color: "white"}}><strong>Allen Moreno</strong><br/>Premium user</p>
+            </div>
                 
                 {SidebarData.map((item, index) => {
                     return (
@@ -71,7 +74,7 @@ import './Navbar.css'
                 })}
                 </div>
             </nav> 
-    
+          </IconContext.Provider>
         </>
     )
 }

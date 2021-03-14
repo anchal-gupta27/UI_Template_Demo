@@ -9,7 +9,7 @@ export const SidebarData = [
         path: '/',
         icon: <FaIcons.FaRegCircle />,
         cName: 'nav-text',
-        ricon: <FaIcons.FaArrowRight />
+       
     },
     {
         title: 'Basic UI Elements',

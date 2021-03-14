@@ -30,14 +30,27 @@ function LineChart() {
             }
         ]
     }
-    const options = {
-        title: {
-            display: true,
-            text: 'Sales Statistics Overview'
-        }
-    }
+    
     return (
-        <Line data={data} options = {options} />
+        <div>
+            <div style={{display:'flex', flexDirection: 'row'}}>
+              <div style={{margin:15}}>
+                 <strong>Sales Statistics Overview</strong>  <br /> Lorem ipsum is placeholder text commonly used
+              </div>
+              <div style={{margin:10, marginLeft:190}}>
+                    <button>1D</button>
+                    <button>5D</button>
+                    <button>1M</button>
+                    <button>1Y</button>
+              </div>
+            </div>
+            
+            <div style={{display:'flex', flexDirection:'row'}}>
+                <div><span>Total Cost</span> <br /> <strong> <span style={{fontSize:18}}>15,263</span> 89.5% </strong> of 20,000 Total </div> 
+                <div><span>Total Cost</span> <br /> <strong> <span style={{fontSize:18}}>15,263</span> 89.5% </strong> of 20,000 Total </div>
+            </div>
+             <Line data={data}  />
+        </div>
     )
 }
 
